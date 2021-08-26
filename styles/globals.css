@@ -1,0 +1,139 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --color-primary: #02c4f2;
+  --color-secondary: #ff800c;
+  --color-tertiary: #02c4f2;
+  --color-quaternary: #c60bf4;
+  --color-quinary: #05022f;
+  --color-senary: rgba(5, 2, 47, 0.5);
+  --color-septenary: rgba(220, 150, 0, 0.68);
+  --color-octonary: rgba(238, 175, 40, 0.22);
+  --color-nonary: #272171;
+  --color-denary: #18144b;
+  --color-duodenary: rgba(24, 20, 75, 0);
+  --color-vigenary: #080534;
+  --color-trigenary: rgba(5, 2, 47, 1);
+  --color-light-yellow: #edd09c;
+  --color-light-blue: #8682c3;
+  --color-light-green: #9bdfef;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.carousel-content > * {
+  width: 100%;
+  flex-shrink: 0;
+  flex-grow: 1;
+}
+
+.carousel-content.show-2 > * {
+  width: 50%;
+}
+.sortbt{
+  background: #211F2F;
+    border-radius: 35px;
+    outline: none;
+    color: white;
+    width: 200px;
+    height: 40px;
+}
+.uy{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #FFFFFF;
+  outline: none;
+  width: 200px;
+  height: 40px;
+}
+.sortss{
+  display: flex;
+  justify-content: space-around;
+  width: 90%;
+  margin: auto;
+  padding-top: 50px;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+.cad{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+}
+.cardbox{
+  width: 30%;
+  background: #05021C;
+border-radius: 5px;
+margin-bottom: 20px;
+padding-bottom: 20px;
+}
+.radios{
+  border-radius: 10px;
+}
+.carddata{
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding:10px 20px;
+}
+.para{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 21px;
+text-align: center;
+color: #9B9B9B;
+padding-bottom: 10px;
+}
+.para2{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 10px;
+line-height: 21px;
+text-align: center;
+color: white;
+padding-bottom: 10px;
+}
+.war{
+  font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+color: #FFFFFF;
+
+}
+.biy{
+  background: linear-gradient(270deg, #FF7505 7.01%, #F0C146 90.15%);
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 10px;
+width: 100%;
+height: 30px;
+}
+.uyi{
+  font-size: 32px;
+  padding-top: 150px;
+  text-align: center;
+  color: white;
+}
+
+.carousel-content.show-3 > * {
+  width: calc(100% / 3);
+}
+
+.carousel-content.show-4 > * {
+  width: calc(100% / 4);
+}
+
+.carousel-content.show-5 > * {
+  width: calc(100% / 5);
+}
